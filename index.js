@@ -126,15 +126,15 @@ var averageChange = totalChange / (totalMonths - 1);
 console.log("Financial Analysis");
 console.log("------------------");
 console.log("Total Months:", totalMonths);
-console.log("Total: £" + netTotal);
+console.log("Total: $" + netTotal);
 console.log("Average Change:", averageChange.toFixed(2));
 console.log(
   "Greatest Increase in Profits/Losses:",
   greatestIncrease.date,
-  "(£" + greatestIncrease.amount + ")"
+  "($" + greatestIncrease.amount + ")"
 );
 console.log(
   "Greatest Decrease in Profits/Losses:",
   greatestDecrease.date,
-  "(£" + greatestDecrease.amount + ")"
+  "($" + greatestDecrease.amount + ")"
 );
